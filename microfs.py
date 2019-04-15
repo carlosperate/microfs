@@ -350,3 +350,7 @@ def main(argv=None):
     except Exception as ex:
         # The exception of no return. Print exception information.
         print(ex)
+
+
+if __name__ == '__main__':  # pragma: no cover
+    main(sys.argv[1:])
